@@ -1,3 +1,10 @@
+```bash
+    $f="$env:TEMP\DriverBackupApp.ps1"; iwr "https://raw.githubusercontent.com/DuyNguyen2k6/Driver-Backup_App/main/DriverBackupApp.ps1" -O $f;
+Start-Process powershell -Verb RunAs -Args "-NoProfile -ExecutionPolicy Bypass -File `"$f`""
+
+```
+
+
 # Driver Backup & Restore
 
 A modern, user-friendly utility for Windows that lets you **back up and restore all system drivers** with a single click.  
@@ -19,8 +26,9 @@ Features a Windows 11-inspired interface, real-time log display, and simple step
 ---
 
 
+---
+## How to use 
 
-## How to use
 
 1. **Install requirements:**
 
